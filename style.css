@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #f0f0f0; /* Cambia el color de fondo */
+    color: #333; /* Cambia el color del texto */
+}
+
+header {
+    background-color: #6495ED; /* Azul claro para el encabezado */
+    color: #fff; /* Texto blanco para el encabezado */
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* Gris oscuro para el pie de página */
+    color: #fff; /* Texto blanco para el pie de página */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    margin: 20px;
+}
+
+article {
+    background-color: #fff; /* Fondo blanco para los artículos */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo para los títulos h2 y h3 */
+h2, h3 {
+    color: #6495ED; /* Azul para los títulos */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #0066cc; /* Azul oscuro para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
